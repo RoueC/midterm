@@ -1,0 +1,75 @@
+
+body {
+    background-color:#dbf5f6; 
+    font-family:Helvetica, sans-serif;
+}
+
+/* Header with image and overlay text*/
+.site-header {    
+    position: relative;
+    text-align: center;
+    margin:auto;    
+}
+
+.site-header img {
+    width: 1200px;
+    height: 550px;     
+}
+
+h1 {        
+    position:absolute; 
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%,-40%);
+    color: whitesmoke;
+    font:110px Papyrus;
+       
+}
+
+/* Navigation bar Style*/
+.navbar {
+    overflow: hidden;
+    text-align: center;
+    background-color:#00445E;
+    margin: auto;
+    font:20px helvetica;    
+}
+
+.navbar a {
+        display:inline-block;
+        padding: 15px 150px;
+        color:white;
+        text-decoration: none;  /*Remove the underline from the links*/
+        border-right: 1px solid whitesmoke; /*Add a border to the links */
+}
+
+.navbar a[title="Contact"] {
+    border-right: none;
+}
+
+.navbar a:hover {
+    background-color:#f0908e; /*Change the background colour on hover*/
+}
+
+/*Second image style and text wrap*/
+.description img { 
+    width: 270px;
+    height: 255px;
+    float: left;
+    margin: 10px;
+}
+
+.description p {
+    margin: auto;
+}
+
+/*.form { 
+    background-color:#e4ebee;     
+}*/
+
+/*Footer*/
+footer { 
+    text-align: right;
+    padding: 20px 10px;
+
+}
