@@ -1,45 +1,51 @@
 
 body {
-    background-color:#dbf5f6; 
+    background-color:#c3f7f1; 
     font-family:Helvetica, sans-serif;
+}
+
+.container { 
+    background-color:#dbf8f5; 
+    width: 1080px;
+    height: 1500%;
+    margin: -10px 124px;
+
 }
 
 /* Header with image and overlay text*/
 .site-header {    
     position: relative;
-    text-align: center;
-    margin:auto;
+    width: 1200px; 
 }
 
 .site-header img {
-    width: 100%;    
+    width: 90%;    
 }
 
 h1 {        
     position:absolute; 
-    width: 100%;
-    top: 45%;
+    text-align: center;
+    width: 90%;
+    top: 50%;
     color: whitesmoke;
     font: 100px Papyrus;       
 }
 
+
 /* Navigation bar Style*/
-.navbar {
-    overflow: hidden;
-    text-align: center;
-    background-color:#00445E;
-    margin: auto;
-    font: 23px helvetica;  
-    padding: 10px 100px;
+.navbar {   
+    margin: 5px 60px 20px 60px;     
+    padding: 5px 50px; 
 }
 
 .navbar a {
-        display:inline-block;
-        justify-content: space-around; /* space before, between, and after the lines */
-        width: 30%;
-        color:rgb(198, 220, 222);
-        text-decoration: none;  /*Remove the underline from the links*/
-        border-right: 1px solid whitesmoke; /*Add a border to the links */
+    display:inline-block;
+    text-align: center;
+    width: 32%; 
+    color:#00445E;
+    text-decoration: none;  /*Remove the underline from the links*/
+    border-right: 2px solid rgb(22, 19, 19); /*Add a border to the links */
+    font: 23px helvetica;  
 }
 
 .navbar a[title="Contact"] {
@@ -55,20 +61,23 @@ h1 {
     width: 250px;
     height:260px; 
     float: left;
-    margin: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
-.description p {
-    margin: auto;
+.description p, h2, h3, h4, .list,.form {
+    margin: 30px 10px;
+        
 }
 
-/*.form { 
-    background-color:#e4ebee;     
-}*/
+.form { 
+    background-color:#eaf2f5;     
+}
 
 /*Footer*/
 footer { 
     text-align: right;
-    padding: 20px 10px;
+    padding: 20px 0px;
+    margin-right: 10px;
 
 }
