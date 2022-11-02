@@ -8,12 +8,11 @@ body {
 .site-header {    
     position: relative;
     text-align: center;
-    margin:auto;    
+    margin:auto;
 }
 
 .site-header img {
-    width: 100%;
-    
+    width: 100%;    
 }
 
 h1 {        
@@ -21,8 +20,7 @@ h1 {
     width: 100%;
     top: 45%;
     color: whitesmoke;
-    font:115px Papyrus;
-       
+    font: 100px Papyrus;       
 }
 
 /* Navigation bar Style*/
